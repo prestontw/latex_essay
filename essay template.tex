@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[margin = 1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\setcitestyle{aysep={}} %no comma between author and year of publication
+\doublespacing
+\def\vnew{v_{new}}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Tunnell Wilson \thepage}
+
+%maybe use \nohyphenation from biblatex package
+
+\begin{document}
+
+\title{
+Math Seminar Proposal
+}
+
+\author{
+Preston Tunnell Wilson }
+
+\date{
+\today }
+
+\maketitle %makes current page style plain
+%\thispagestyle{empty} will get rid of page number on title page
+%\thispagestyle{fancy} will put usual header on title page
+just a bunch of junk, you know
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Maecenas enim augue, tristique non lectus a, scelerisque porttitor quam. 
+Quisque in ligula volutpat, rutrum arcu vel, aliquet justo.
+Donec volutpat ipsum tincidunt ligula facilisis, ac laoreet elit porttitor.
+Etiam pellentesque malesuada diam, aliquet porttitor eros varius nec.
+Ut volutpat hendrerit gravida.
+Morbi non turpis magna.
+Fusce ac fermentum magna, nec posuere sapien.
+Vestibulum ut pretium quam.
+Cras ornare ac velit non venenatis.
+Praesent justo nisi, pharetra nec orci eu, faucibus pretium metus.
+Aliquam a lectus ante.
+Vivamus hendrerit libero felis, at condimentum lorem fringilla vel.
+Suspendisse placerat eros ac tellus volutpat cursus.
+Vivamus malesuada interdum risus, quis pellentesque est tincidunt a.
+
+
+Etiam rutrum massa at leo eleifend, vel sodales dolor dictum.
+Cras dictum vulputate nulla, bibendum gravida tortor imperdiet at.
+Curabitur ac mauris non mauris mollis venenatis.
+Nunc consequat efficitur libero, et pulvinar augue blandit in.
+Proin maximus odio at est molestie, in varius leo congue.
+Cras elementum sapien sed consectetur aliquet.
+Mauris quam magna, lacinia et porta facilisis, tincidunt non urna.
+Phasellus rhoncus, nisi non volutpat porttitor, lacus mi suscipit leo, non aliquet purus neque vitae magna.
+Quisque vitae turpis et leo lobortis blandit ut id leo.
+Quisque et scelerisque elit, at facilisis orci.
+
+
+Nullam pellentesque metus massa, vel tincidunt lectus sollicitudin vitae.
+Mauris tortor ante, pulvinar eget dolor vel, finibus accumsan arcu.
+Aliquam egestas mattis rutrum.
+Donec condimentum, enim et interdum pellentesque, lacus tellus sodales urna, ac posuere eros dui aliquet nunc.
+Aliquam id dui fermentum leo tempus fringilla quis ac nisl.
+Morbi sagittis mauris a augue lacinia, id porta felis iaculis.
+Suspendisse potenti.
+Nulla ut malesuada lorem.
+Proin lectus nisl, fringilla ac eros a, dapibus ullamcorper nulla.
+Suspendisse placerat, arcu at mattis molestie, orci ipsum feugiat ligula, non dignissim dui turpis vel purus.
+Suspendisse efficitur pharetra leo.
+
+
+Sed velit augue, iaculis vel mattis non, lacinia vel tortor.
+Donec vitae dolor vitae neque fermentum malesuada quis at mauris.
+Nullam non varius est, eget molestie massa.
+Etiam quis faucibus nunc, nec convallis leo.
+Morbi in eros tristique, vulputate metus at, accumsan quam.
+Sed ac orci a nibh commodo sollicitudin a at velit.
+Proin interdum lobortis elit, vitae dictum lorem feugiat vitae.
+Aliquam consectetur ante a eros bibendum gravida.
+Donec fringilla pellentesque sagittis.
+Vivamus suscipit tellus id enim elementum, ac maximus diam placerat.
+Sed fermentum mi mi, dignissim scelerisque nulla egestas eu.
+Quisque non finibus nisi.
+Pellentesque sed mi ullamcorper, interdum mauris in, lobortis metus.
+
+
+Praesent eu venenatis magna.
+Phasellus in erat eget augue posuere efficitur.
+Integer cursus dui ac lectus volutpat finibus.
+Fusce convallis a ante sit amet condimentum.
+Mauris vitae odio vitae arcu egestas mattis.
+Vestibulum aliquet, sapien sed blandit congue, turpis mi tempus urna, non congue urna nunc vitae augue.
+Pellentesque sit amet ultricies leo, sollicitudin blandit sem.
+Integer eget ullamcorper leo.
+
+This document is an example of \texttt{thebibliography} environment using 
+in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} 
+book \cite{latexcompanion}, the Einstein journal paper \cite{einstein}, and the 
+Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are
+\cite{latexcompanion,knuthwebsite}.
+
+here is another thing! \cite{einstein}.
+We don't need to redo bibtex, do we? \cite{knuthwebsite}.
+What is citep? \citep[3]{einstein} It relies on the natbib package!
+it's a parenthetical citation, where as citet is cite textual \citet{einstein}!
+
+%author-date system
+\bibliographystyle{plainnat}
+\bibliography{essay}
+
+\end {document}
